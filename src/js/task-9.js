@@ -13,7 +13,7 @@ const products = [
 function groupProducts(data) {
     const groupedProducts = {};
     for (const item of data) {
-        const {category, name } = item;
+        const { category, name } = item;
         if (!groupedProducts[category]) groupedProducts[category] = [];
         
         groupedProducts[category].push(name);

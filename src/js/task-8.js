@@ -7,10 +7,11 @@ function invertCase(str) {
         console.log(letter); 
         if (letter === letter.toUpperCase()) {
             invertString += letter.toLowerCase();
-        }else {invertString += letter.toUpperCase();}
+        } else {
+            invertString += letter.toUpperCase();
+        }
     }
-    return invertString
-
-
+    return invertString;
 }
+
 console.log(invertCase("hELlo World"))

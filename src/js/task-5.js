@@ -30,4 +30,4 @@ function findAuthor(author) {
     
 }
 
-console.log(findAuthor("dfd"));
+console.log(findAuthor("Swift"));

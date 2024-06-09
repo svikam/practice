@@ -11,7 +11,7 @@ function age(people) {
     let average = 0;
     for (const person of people) {
     average += person.age
-}
+    }
     return average/people.length;
 }
 

@@ -24,3 +24,12 @@ console.log(convertTime(75));
 console.log(convertTime(85));
 console.log(convertTime(80));
 console.log(convertTime(150));
+
+//Метод padStart() в JavaScript предназначен для добавления символов в начало строки, чтобы достичь определенной длины. 
+// let num = 42;
+// console.log(num.toString().padStart(4, '0')); // "0042"
+
+// let fileName = "image.jpg";
+// console.log(fileName.padStart(20, '-')); // "----------------image.jpg"
+// В первом примере число 42 преобразуется в строку, а затем дополняется нулями до 4 символов. 
+// Во втором примере строка "image.jpg" дополняется дефисами до 20 символов.
